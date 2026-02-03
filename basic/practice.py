@@ -116,6 +116,8 @@ print(students["student1"]["name"])
 print(students["student2"]["age"])"""
 
 
+#list example
+"""
 mylist = [
     {
     'a': [1,2,3],
@@ -128,4 +130,49 @@ mylist = [
 print(mylist)
 print(type(mylist))
 
-print(mylist[0]['a'][1])
+print(mylist[0]['a'][1])"""
+
+
+#Iterating over nested dictionaries
+
+"""students ={
+    "student1": {"name": "maha", "age": 28},
+    "student2": {"name": "dan", "age": 27}
+}
+
+for student_Id, student_info in students.items():
+    print(f"{student_Id}:{student_info}")
+    for key,valve in student_info.items():
+        print(f"{key}:{valve}")"""
+
+
+#dictonaries comprehension
+
+"""square = {x:x**2 for x in range(10)}
+print(square)
+
+#conditions dict comprehansion
+
+even = {x:x**2 for x in range(10) if x%2==0}
+print(even)"""
+
+#use a dict to count he frequency of element in list
+
+"""numbers = [1,2,2,3,3,3,4,4,4,4,5,10,10,10,10]
+frequency ={}
+
+for number in numbers:
+    if number in frequency:
+        frequency[number]+=1
+    else:
+        frequency[number]=1
+print(frequency)"""
+
+dict1 = {'a':1,'b':2}
+dict2 = {'b':3, 'c': 4}
+
+merge = {**dict1, **dict2}
+print(merge)
+
+keys = dict1.keys()
+print(keys)
