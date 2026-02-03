@@ -32,7 +32,35 @@ print(student["age"])"""
 
 #Accessing using get method.
 
-print(student.get('grade'))
+"""print(student.get('grade'))
 print(student.get('last_name'))
-print(student.get('last_name', "Not available"))
+print(student.get('last_name', "Not available"))"""
+
+#modifying dict element :- dict are mutable so u can add, update, or delet element
+
+"""#Update
+student["age"] = 39
+print(student)
+
+#add
+student["address"] = "India"
+print(student)
+
+#delet
+del student["grade"]
+print(student)"""
+
+
+#dictonary Methods
+#keys
+"""keys = student.keys()
+print(keys)
+
+#values
+values = student.values()
+print(values)
+
+#items
+items = student.items()
+print(items)"""
 
