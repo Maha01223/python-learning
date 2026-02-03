@@ -24,7 +24,7 @@ print(student)"""
 
 #Accessing Dict elements
 
-student = {"name": "Mohsin", "age": 34, "grade": "A"}
+student = {"name": "Mohsin", "age": 28, "grade": "A"}
 
 """print(student["grade"])
 print(student["name"])
@@ -53,7 +53,7 @@ print(student)"""
 
 #dictonary Methods
 #keys
-"""keys = student.keys()
+keys = student.keys()
 print(keys)
 
 #values
@@ -62,5 +62,43 @@ print(values)
 
 #items
 items = student.items()
-print(items)"""
+print(items)
+
+#Iterating over dict 
+#You can use loops to iterative over dic keys,values or items
+#iterating over keys
+for keys in student.keys():
+    print(keys)
+
+#iterating over values
+for values in student.values():
+    print(values)
+
+#iterate over keys valve pairs
+for keys, valves in student.items():
+    print(f"{keys}:{values}")
+
+
+#Shallow copy
+"""#normal copy
+student_copy = student
+print(student)
+print(student_copy)
+
+#update
+student["name"] = "Sparsh"
+print(student)
+print(student_copy)"""
+
+"""#its a shallow copy
+student_copy1 = student.copy()
+print(student_copy1)
+print(student)
+
+#update
+
+student["name"] = "Abbas"
+print(student)
+print(student_copy1)"""
+
 
