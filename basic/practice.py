@@ -14,6 +14,25 @@ empty_dicts = dict()
 print(type(empty_dicts)) """   
 
 
-student = {"name": "Mohsin", "age": 34, "grade": "A"}
+"""student = {"name": "Mohsin", "age": 34, "grade": "A"}
 print(student)
-print(type(student))
+print(type(student))"""
+
+"""#single key is always used
+student = {"name": "Mohsin", "age": 34, "age": "33"}
+print(student)"""
+
+#Accessing Dict elements
+
+student = {"name": "Mohsin", "age": 34, "grade": "A"}
+
+"""print(student["grade"])
+print(student["name"])
+print(student["age"])"""
+
+#Accessing using get method.
+
+print(student.get('grade'))
+print(student.get('last_name'))
+print(student.get('last_name', "Not available"))
+
