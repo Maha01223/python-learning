@@ -52,7 +52,7 @@ print(student)"""
 
 
 #dictonary Methods
-#keys
+"""#keys
 keys = student.keys()
 print(keys)
 
@@ -62,11 +62,11 @@ print(values)
 
 #items
 items = student.items()
-print(items)
+print(items)"""
 
 #Iterating over dict 
 #You can use loops to iterative over dic keys,values or items
-#iterating over keys
+"""#iterating over keys
 for keys in student.keys():
     print(keys)
 
@@ -76,7 +76,7 @@ for values in student.values():
 
 #iterate over keys valve pairs
 for keys, valves in student.items():
-    print(f"{keys}:{values}")
+    print(f"{keys}:{values}")"""
 
 
 #Shallow copy
@@ -102,3 +102,30 @@ print(student)
 print(student_copy1)"""
 
 
+#Nested dictionaries
+
+"""students ={
+    "student1": {"name": "maha", "age": 28},
+    "student2": {"name": "dan", "age": 27}
+}
+
+print(students)
+
+#access nested dict elemtnt
+print(students["student1"]["name"])
+print(students["student2"]["age"])"""
+
+
+mylist = [
+    {
+    'a': [1,2,3],
+     'b': 'hello',
+     'c': True},
+        {
+        'a': [4,5,6],
+        'b': 'you',
+        'c': False}]
+print(mylist)
+print(type(mylist))
+
+print(mylist[0]['a'][1])
