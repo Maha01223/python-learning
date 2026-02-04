@@ -168,11 +168,40 @@ for number in numbers:
         frequency[number]=1
 print(frequency)"""
 
-dict1 = {'a':1,'b':2}
+#merge two dict
+"""dict1 = {'a':1,'b':2}
 dict2 = {'b':3, 'c': 4}
 
 merge = {**dict1, **dict2}
 print(merge)
 
 keys = dict1.keys()
-print(keys)
+print(keys)"""
+
+
+#fundemental 
+"""dict = {
+    '123': [1,2,3],
+    '123': 'hello'
+}
+
+print(dict)
+#dict has unique key, valve it can not be change key do not overlep"""
+
+
+user = {
+    'basket': [1,2,3,4],
+    'greet': 'hello',
+    'age': 50
+}
+
+print(user)
+print(user.keys())
+print(user.values())
+
+#find
+print('basket' in user.keys())
+print('wind' in user.keys())
+print(200 in user.items())
+print(user.update({'name': "mohsin"}))
+print(user)
