@@ -189,7 +189,7 @@ print(dict)
 #dict has unique key, valve it can not be change key do not overlep"""
 
 
-user = {
+"""user = {
     'basket': [1,2,3,4],
     'greet': 'hello',
     'age': 50
@@ -204,4 +204,4 @@ print('basket' in user.keys())
 print('wind' in user.keys())
 print(200 in user.items())
 print(user.update({'name': "mohsin"}))
-print(user)
+print(user)"""
