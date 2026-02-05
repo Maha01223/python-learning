@@ -150,6 +150,23 @@ for i in range(10):
         lst.append(i)
 print(lst)
 
+#Iterating over list
+for num in number:
+    print(num)
+
+#index 
+for index,number in enumerate(number):
+    print(index,number)
+
+#nested list comprehension
+#[expression for item1 in ieration for item2 in iteration]
+
+list1 = [1,2,3,4]
+list2 =['a', 'b', 'c', 'd']
+
+pair = [(i,j) for i in list1 for j in list2]
+print(pair)
+
 
 
 
