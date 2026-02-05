@@ -49,6 +49,12 @@ print(fruits)
 fruits.extend([101,102,103,104,105,106,107])
 print(fruits)"""
 
+#indexing 
+index =fruits.index("cherry")
+print(index)
+
+print(fruits)
+
 
 #Remove
 """fruits.pop() #remove last item on the list
@@ -92,9 +98,29 @@ Branch [:] = Branch.copy() #both are right to copy
 print(len(Branch))"""
 
 sentence = ' '
-
+"""
 new_sentence = sentence.join(['Hello']) #
 #new_sentence = ' '.join([Hello])  boh are same working
 
 print(new_sentence)
+"""
+# list unpacking 
+"""a,b,c = [-1,2,3]
+print(a)
+print(b)
+print(c)
+
+a,b,c, * other,d = [1,2,3,4,5,6,7,8,9]
+
+print(other)
+print(d)"""
+
+#None is a special ype of data
+"""
+weapone = None
+print(weapone)"""
+
+
+
+
 
