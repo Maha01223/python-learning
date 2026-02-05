@@ -42,10 +42,10 @@ print(set)"""
 
 
 #set methods
-my_set = {1,2,3,4,5}
+"""my_set = {1,2,3,4,5}
 print(my_set)
 print(3 in my_set)
-print(10 in my_set)
+print(10 in my_set)"""
 
 
 #Mathematical Operation
