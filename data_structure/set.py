@@ -67,3 +67,40 @@ print(set1)
 
 set2.intersection_update(set1)
 print(set2)"""
+
+
+#difference
+
+set1 = {1,2,3,4,5,6,7,8,9}
+set2 ={4,5,6,7,8,9}
+"""#it means set1 ke jo set2 me nahi hai vo he show hoge.
+print(set1.difference(set2))
+#output {1,2,3}
+
+
+#symmetric differenec
+#it means set1 ke jo set2 me same element hai vo show nahi hoge
+print(set1.symmetric_difference(set2))"""
+
+
+"""#issupsets
+print(set1.issubset(set2)) #set1 ke sare elements set2 me hai to he true show hoga otherwise false.
+
+#issuperset
+print(set1.issuperset(set2)) #set2 ke saare elements set1 me show hoge to he true show hoga otherwise false
+
+#disjoints
+print(set1.isdisjoint(set2)) #agar set1 me aur set2 me koi bhe valve same milege toh false hoga."""
+
+#list convert into set
+lst = [1,2,3,3,4,4,5,6,7,8,9,9]
+print(set(lst))
+
+#counting unique word in text
+txt = "In his tutirial we are discusing"
+word = txt.split()
+
+#conver ist of word to set to get unique words
+unique = set(word)
+print(unique)
+print(len(unique))
