@@ -50,10 +50,10 @@ fruits.extend([101,102,103,104,105,106,107])
 print(fruits)"""
 
 #indexing 
-index =fruits.index("cherry")
+"""index =fruits.index("cherry")
 print(index)
 
-print(fruits)
+print(fruits)"""
 
 
 #Remove
@@ -120,6 +120,35 @@ print(d)"""
 weapone = None
 print(weapone)"""
 
+#slicing list
+
+number = [1,2,3,4,5,6,7,8,9,10]
+"""print(number)
+print(number[2:5])
+print(number[:5])
+print(number[5:])"""
+
+"""print(number[::2])
+print(number[0:8:3])
+print(number[::-1])"""
+
+
+#list comprehension
+#basic synax
+#           [Expression for item in iterable]
+#with conditional logic 
+#           [Expression for item in iterable if condition]
+
+#example 
+square = [num**2 for num in range(10)]
+print(square)
+
+#with condiional logic even number
+lst = []
+for i in range(10):
+    if i%2==0:
+        lst.append(i)
+print(lst)
 
 
 
