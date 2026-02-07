@@ -69,8 +69,3 @@ print(middle)
 lst =[[1,2,3,4],[5,6,7,8,9], [10,11,12,13],[14,15,16,17]]
 print(lst[2][0])
 
-#iterating over nesed tuple
-for sub_tuple in nested_tuples:
-    for item in sub_tuples:
-        print(item, end='')
-    print()
