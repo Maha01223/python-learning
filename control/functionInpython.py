@@ -6,7 +6,7 @@
 def function_name(parameters):
     """docstring"""
     #function body
-    return Exception
+    return Expression  
 
 #why function??
 num = 24
@@ -27,3 +27,4 @@ def even_or_odd(num):
 
 #call this function.
 even_or_odd(21)
+even_or_odd(1000002)
