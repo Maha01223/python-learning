@@ -28,3 +28,26 @@ def even_or_odd(num):
 #call this function.
 even_or_odd(21)
 even_or_odd(1000002)
+
+
+#function with multiple parameter
+
+def add(a,b):
+    return a+b
+result= add(5,6)
+print(result)
+
+
+
+##default parameter
+
+def greet(name):
+    print(f"Hello {name}")
+greet("Mohsin")
+
+
+#default parameter another example
+
+def greet (name = "guest"):
+    print(f"{name} welcome to the paradise")
+greet("Maha")
