@@ -11,6 +11,7 @@ def function_name(parameters):
 #why function??
 """num = 24
 if num%2==0:
+
     print("the number is even")
 else:
     print("the number is odd")"""
@@ -61,3 +62,11 @@ def print_numbers(*args):
         print(number)
     
 print_numbers(1,2,3,4,5,6,7,8,9,"Mohsin")
+
+
+#keywords arguments
+
+def print_details(**kwargs):
+    for key,valve in kwargs.items():
+        print(f"{key} : {valve}")
+print_details(name = "dan", age= "21", country = "india")
