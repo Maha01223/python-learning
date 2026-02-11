@@ -74,10 +74,19 @@ print_details(name = "dan", age= "21", country = "india")"""
 
 #Args and kwargs
 
-def print_details(*args, **kwargs):
+"""def print_details(*args, **kwargs):
     for val in args:
         print(f"positional argument: {val}")
     for key,values in kwargs.items():
          print(f"{key}:{values}")
 
 print_details(1,2,3,4,5,"Mohsin",name = "dan", age= "21", country = "india")
+"""
+
+
+#Return Statement
+
+def multiply(a,b):
+    return a*b
+
+print(multiply(9,9))
