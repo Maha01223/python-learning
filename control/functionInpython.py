@@ -57,16 +57,27 @@ greet("Maha")"""
 #Variable enth argument
 #posiional and keyword arguments
 
-def print_numbers(*args):
+"""def print_numbers(*args):
     for number in args:
         print(number)
     
-print_numbers(1,2,3,4,5,6,7,8,9,"Mohsin")
+print_numbers(1,2,3,4,5,6,7,8,9,"Mohsin")"""
 
 
 #keywords arguments
 
-def print_details(**kwargs):
+"""def print_details(**kwargs):
     for key,valve in kwargs.items():
         print(f"{key} : {valve}")
-print_details(name = "dan", age= "21", country = "india")
+print_details(name = "dan", age= "21", country = "india")"""
+
+
+#Args and kwargs
+
+def print_details(*args, **kwargs):
+    for val in args:
+        print(f"positional argument: {val}")
+    for key,values in kwargs.items():
+         print(f"{key}:{values}")
+
+print_details(1,2,3,4,5,"Mohsin",name = "dan", age= "21", country = "india")
