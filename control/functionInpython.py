@@ -9,22 +9,22 @@ def function_name(parameters):
     return Expression  
 
 #why function??
-num = 24
+"""num = 24
 if num%2==0:
     print("the number is even")
 else:
-    print("the number is odd")
+    print("the number is odd")"""
 
 
 #In Function
 
 def even_or_odd(num):
     """this function find even or odd"""
-    if num%2==0:
+    """if num%2==0:
         print("the number is even")
     else:
         print("the number is odd")
-
+"""
 #call this function.
 even_or_odd(21)
 even_or_odd(1000002)
@@ -51,3 +51,13 @@ greet("Mohsin")
 def greet (name = "guest"):
     print(f"{name} welcome to the paradise")
 greet("Maha")"""
+
+
+#Variable enth argument
+#posiional and keyword arguments
+
+def print_numbers(*args):
+    for number in args:
+        print(number)
+    
+print_numbers(1,2,3,4,5,6,7,8,9,"Mohsin")
