@@ -104,5 +104,6 @@ def convert_temperature(temp, unit):
     else:
         return None
 
-print(convert_temperature(29, "C"))
+print(convert_temperature(5, "C"))
 print(convert_temperature(85, "F"))
+print(convert_temperature(800, "C"))
