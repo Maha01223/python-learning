@@ -85,19 +85,24 @@ print_details(1,2,3,4,5,"Mohsin",name = "dan", age= "21", country = "india")
 
 
 #Return Statement
-
+"""
 def multiply(a,b):
     return a*b
 
-print(multiply(9,9))
+print(multiply(9,9))"""
 
-#end
-#comp
-#droppp
-#edit
-#gap
-#gyt
-#jjfd
-#ggs
-#hhds
-#kjhfdsf
+
+# video 23 More example 
+
+#temperature Conversion
+def convert_temperature(temp, unit):
+    """this function convert temperaure between cel and Fahrenheit"""
+    if unit == "C":
+        return temp * 9/5 + 32 #cel to F
+    elif unit == "F":
+        return (temp - 32)*5/9 #F to cel
+    else:
+        return None
+
+print(convert_temperature(29, "C"))
+print(convert_temperature(85, "F"))
