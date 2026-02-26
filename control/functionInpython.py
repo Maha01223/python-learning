@@ -107,3 +107,4 @@ def convert_temperature(temp, unit):
 print(convert_temperature(5, "C"))
 print(convert_temperature(85, "F"))
 print(convert_temperature(800, "C"))
+print(convert_temperature(800, "F"))
