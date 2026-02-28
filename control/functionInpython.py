@@ -110,3 +110,22 @@ print(convert_temperature(800, "C"))
 print(convert_temperature(800, "F"))
 print(convert_temperature(1, "F"))
 print(convert_temperature(1, "C"))
+
+
+
+# password Strength checker
+
+def is_strong_password(password):
+    """this is strong password  if password is strong or not"""
+    if len(password) > 8:
+        return False
+    if not any (char.isdigital() for char in password):
+        return False
+    if not any (char.islower() for char in password):
+        return False
+    if not any (char in '!@#$%^&*+*/-' for char in password):
+        return False
+    return True
+
+
+print(is_strong_password(weekend@123))
