@@ -104,12 +104,12 @@ def convert_temperature(temp, unit):
     else:
         return None
 
-print(convert_temperature(5, "C"))
+"""print(convert_temperature(5, "C"))
 print(convert_temperature(85, "F"))
 print(convert_temperature(800, "C"))
 print(convert_temperature(800, "F"))
 print(convert_temperature(1, "F"))
-print(convert_temperature(1, "C"))
+print(convert_temperature(1, "C"))"""
 
 
 
@@ -130,5 +130,6 @@ def is_strong_password(password):
     return True
 
 
-print(is_strong_password("weekend@123"))
+"""print(is_strong_password("weekend@123"))
 print(is_strong_password("Str0ngPWd1123!)"))
+print(is_strong_password("StT0ngPWd1123!)"))"""
