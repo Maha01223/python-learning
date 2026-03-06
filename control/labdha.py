@@ -46,3 +46,7 @@ print(addition(10,45,85))
 addition1 = lambda x,y,z : x+y+z
 
 print(addition1(15,85,4595844))
+
+
+
+
