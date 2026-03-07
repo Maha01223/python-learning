@@ -8,9 +8,23 @@ def square(number):
 print(square(8)) # single Valve only
 
 
-#Map function
+#lamdha function
 print(list(map((lambda x: x**2), number)))
 
 
 
 # The map function in python
+# the map function applie a give function to all iems in an input list (or any iterator) 
+#this is particular useful for transforming data in a list comprehensively
+
+#normal function
+def square(x):
+    return x*x
+
+print(square(10))
+
+#In map function
+
+numbers = [11,12,13,14,1,5,1,6,1,7,1,5]
+
+print(list(map(square, numbers)))
