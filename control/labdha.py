@@ -1,6 +1,6 @@
 #Lamdha function
-    # lamdha function are small function anonymous function defined using the lamdha keyword.
-#The can have any number of argument but only ane expression, 
+    # lamdha function are small  anonymous function defined using the lamdha keyword.
+#The can have any number of argument but only one expression, 
     #the commonly used for short opeation or as argumnent to high order function.
 
 #syntax
