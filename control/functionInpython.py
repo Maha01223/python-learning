@@ -146,7 +146,8 @@ def calculate_total_cost(cart):
 cart = [
     {'name': 'apple', 'price': 0.5, 'quantity': 4},
     {'name': 'orange', 'price': 0.7, 'quantity': 5},
-    {'name': "banana", 'price': 0.3, 'quantity': 10}
+    {'name': "banana", 'price': 0.3, 'quantity': 10},
+    {'name': "carry", 'price': 0.4, 'quantity': 11}
 ]
 
 #caling the function
