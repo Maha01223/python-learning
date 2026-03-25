@@ -10,3 +10,4 @@ print(maths.substruction(65,54))
 
 from package.subpackages.mul import divided
 print(divided(15,52))
+print(divided(15,51))
