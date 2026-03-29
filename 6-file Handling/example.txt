@@ -1,8 +1,2 @@
-hello world!
-This is a newline
-Append opration taken place!
-Append opration taken place!
-Append opration taken place!
-First line
-second line 
-third line 
+Hello
+this is a newline
